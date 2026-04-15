@@ -1,0 +1,122 @@
+[
+  {
+    "category": "刷单返利类",
+    "slug": "刷单返利类",
+    "case_count": 15007,
+    "node_count": 2072,
+    "edge_count": 1987,
+    "detail_node_count": 2545,
+    "detail_edge_count": 2907,
+    "graph_data_path": "by_category/刷单返利类/graph_data.json"
+  },
+  {
+    "category": "冒充电商物流客服类",
+    "slug": "冒充电商物流客服类",
+    "case_count": 5746,
+    "node_count": 1524,
+    "edge_count": 1639,
+    "detail_node_count": 1957,
+    "detail_edge_count": 2529,
+    "graph_data_path": "by_category/冒充电商物流客服类/graph_data.json"
+  },
+  {
+    "category": "虚假网络投资理财类",
+    "slug": "虚假网络投资理财类",
+    "case_count": 4995,
+    "node_count": 1341,
+    "edge_count": 1299,
+    "detail_node_count": 1643,
+    "detail_edge_count": 1873,
+    "graph_data_path": "by_category/虚假网络投资理财类/graph_data.json"
+  },
+  {
+    "category": "贷款、代办信用卡类",
+    "slug": "贷款_代办信用卡类",
+    "case_count": 4748,
+    "node_count": 1164,
+    "edge_count": 1181,
+    "detail_node_count": 1672,
+    "detail_edge_count": 2103,
+    "graph_data_path": "by_category/贷款_代办信用卡类/graph_data.json"
+  },
+  {
+    "category": "虚假征信类",
+    "slug": "虚假征信类",
+    "case_count": 3596,
+    "node_count": 1115,
+    "edge_count": 1207,
+    "detail_node_count": 1466,
+    "detail_edge_count": 1949,
+    "graph_data_path": "by_category/虚假征信类/graph_data.json"
+  },
+  {
+    "category": "虚假购物、服务类",
+    "slug": "虚假购物_服务类",
+    "case_count": 3020,
+    "node_count": 1495,
+    "edge_count": 1492,
+    "detail_node_count": 1854,
+    "detail_edge_count": 2166,
+    "graph_data_path": "by_category/虚假购物_服务类/graph_data.json"
+  },
+  {
+    "category": "冒充公检法及政府机关类",
+    "slug": "冒充公检法及政府机关类",
+    "case_count": 1956,
+    "node_count": 1395,
+    "edge_count": 1621,
+    "detail_node_count": 1747,
+    "detail_edge_count": 2495,
+    "graph_data_path": "by_category/冒充公检法及政府机关类/graph_data.json"
+  },
+  {
+    "category": "冒充领导、熟人类",
+    "slug": "冒充领导_熟人类",
+    "case_count": 1846,
+    "node_count": 574,
+    "edge_count": 587,
+    "detail_node_count": 736,
+    "detail_edge_count": 952,
+    "graph_data_path": "by_category/冒充领导_熟人类/graph_data.json"
+  },
+  {
+    "category": "网络游戏产品虚假交易类",
+    "slug": "网络游戏产品虚假交易类",
+    "case_count": 926,
+    "node_count": 535,
+    "edge_count": 528,
+    "detail_node_count": 670,
+    "detail_edge_count": 862,
+    "graph_data_path": "by_category/网络游戏产品虚假交易类/graph_data.json"
+  },
+  {
+    "category": "网络婚恋、交友类(非虚假网络投资理财类)",
+    "slug": "网络婚恋_交友类_非虚假网络投资理财类",
+    "case_count": 678,
+    "node_count": 340,
+    "edge_count": 386,
+    "detail_node_count": 471,
+    "detail_edge_count": 689,
+    "graph_data_path": "by_category/网络婚恋_交友类_非虚假网络投资理财类/graph_data.json"
+  },
+  {
+    "category": "网黑案件",
+    "slug": "网黑案件",
+    "case_count": 519,
+    "node_count": 92,
+    "edge_count": 112,
+    "detail_node_count": 155,
+    "detail_edge_count": 249,
+    "graph_data_path": "by_category/网黑案件/graph_data.json"
+  },
+  {
+    "category": "冒充军警购物类诈骗",
+    "slug": "冒充军警购物类诈骗",
+    "case_count": 451,
+    "node_count": 289,
+    "edge_count": 342,
+    "detail_node_count": 348,
+    "detail_edge_count": 502,
+    "graph_data_path": "by_category/冒充军警购物类诈骗/graph_data.json"
+  }
+]
