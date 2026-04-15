@@ -29,11 +29,11 @@ npm run deploy
 ```
 
 发布前请确保：
-- GitHub 上已经存在仓库 `smart-fraud-alert-frontend`
+- GitHub 上已经存在仓库 `smart-fraud-alert-page`
 - 本地仓库已经添加 `origin` 指向该仓库
 - GitHub Pages 的发布来源设置为 `gh-pages` 分支
 
-当前前端构建已配置为以 `/smart-fraud-alert-frontend/` 作为生产环境基础路径。
+当前前端构建已配置为以 `/smart-fraud-alert-page/` 作为生产环境基础路径。
 
 ## 访问
 开发环境默认：http://localhost:5173
