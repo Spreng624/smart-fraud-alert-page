@@ -7,7 +7,7 @@ import {
   type GraphNodeData,
 } from '@/components/CytoscapeGraph';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { request } from '@/utils/request';
+import { HAS_REMOTE_API, request } from '@/utils/request';
 
 type UnknownRecord = Record<string, unknown>;
 
@@ -347,6 +347,11 @@ export default function GraphPage() {
 
   return (
     <div className="space-y-6 px-4 sm:px-6">
+      {!HAS_REMOTE_API && (
+        <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+          当前未连接后端，已自动切换为本地静态图谱数据展示。
+        </div>
+      )}
       {loading ? (
         <div className="rounded-2xl border border-dashed border-slate-300 bg-white p-16 text-center text-slate-500">
           正在加载图谱入口信息…

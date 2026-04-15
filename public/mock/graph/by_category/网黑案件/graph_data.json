@@ -1,0 +1,2848 @@
+{
+  "category": "网黑案件",
+  "default_view": "collapsed",
+  "interaction": {
+    "expand_mode": "members"
+  },
+  "summary": {
+    "case_count": 519,
+    "collapsed_node_count": 92,
+    "collapsed_edge_count": 112,
+    "detail_node_count": 155,
+    "detail_edge_count": 249
+  },
+  "nodes": [
+    {
+      "node_id": "Script:威胁发送裸聊视频",
+      "node_name": "威胁发送裸聊视频",
+      "node_type": "Script",
+      "concept": "威胁发送裸聊视频",
+      "group": "威胁发送裸聊视频",
+      "case_count": 399,
+      "loss_sum": 12175978.75,
+      "symbol_size": 45.95,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁发送裸聊视频"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:社交媒体",
+      "node_name": "社交媒体",
+      "node_type": "Media",
+      "concept": "QQ媒介",
+      "group": "社交媒体",
+      "case_count": 395,
+      "loss_sum": 12297802.6,
+      "symbol_size": 45.89,
+      "is_group_proxy": true,
+      "member_count": 6,
+      "member_preview": [
+        "QQ",
+        "微信",
+        "快手",
+        "抖音",
+        "推特",
+        "推特网"
+      ],
+      "members": [
+        {
+          "node_id": "Media:QQ",
+          "node_name": "QQ",
+          "node_type": "Media",
+          "group": "社交媒体",
+          "case_count": 349,
+          "loss_sum": 8941163.8,
+          "symbol_size": 45.15
+        },
+        {
+          "node_id": "Media:微信",
+          "node_name": "微信",
+          "node_type": "Media",
+          "group": "社交媒体",
+          "case_count": 66,
+          "loss_sum": 1899783.8,
+          "symbol_size": 35.23
+        },
+        {
+          "node_id": "Media:推特",
+          "node_name": "推特",
+          "node_type": "Media",
+          "group": "社交媒体",
+          "case_count": 29,
+          "loss_sum": 970452.5,
+          "symbol_size": 30.41
+        },
+        {
+          "node_id": "Media:抖音",
+          "node_name": "抖音",
+          "node_type": "Media",
+          "group": "社交媒体",
+          "case_count": 18,
+          "loss_sum": 361300.5,
+          "symbol_size": 27.67
+        },
+        {
+          "node_id": "Media:快手",
+          "node_name": "快手",
+          "node_type": "Media",
+          "group": "社交媒体",
+          "case_count": 2,
+          "loss_sum": 102080.0,
+          "symbol_size": 16.59
+        },
+        {
+          "node_id": "Media:推特网",
+          "node_name": "推特网",
+          "node_type": "Media",
+          "group": "社交媒体",
+          "case_count": 2,
+          "loss_sum": 23022.0,
+          "symbol_size": 16.59
+        }
+      ]
+    },
+    {
+      "node_id": "Action:资金操作",
+      "node_name": "资金操作",
+      "node_type": "Action",
+      "concept": "转账",
+      "group": "资金操作",
+      "case_count": 389,
+      "loss_sum": 12104200.15,
+      "symbol_size": 45.8,
+      "is_group_proxy": true,
+      "member_count": 5,
+      "member_preview": [
+        "充值",
+        "购买京东e卡",
+        "购买加油卡",
+        "购买物品",
+        "转账"
+      ],
+      "members": [
+        {
+          "node_id": "Action:转账",
+          "node_name": "转账",
+          "node_type": "Action",
+          "group": "资金操作",
+          "case_count": 386,
+          "loss_sum": 11330391.65,
+          "symbol_size": 45.75
+        },
+        {
+          "node_id": "Action:充值",
+          "node_name": "充值",
+          "node_type": "Action",
+          "group": "资金操作",
+          "case_count": 15,
+          "loss_sum": 435253.0,
+          "symbol_size": 26.64
+        },
+        {
+          "node_id": "Action:购买京东e卡",
+          "node_name": "购买京东e卡",
+          "node_type": "Action",
+          "group": "资金操作",
+          "case_count": 3,
+          "loss_sum": 249280.0,
+          "symbol_size": 18.32
+        },
+        {
+          "node_id": "Action:购买加油卡",
+          "node_name": "购买加油卡",
+          "node_type": "Action",
+          "group": "资金操作",
+          "case_count": 1,
+          "loss_sum": 15504.0,
+          "symbol_size": 14.16
+        },
+        {
+          "node_id": "Action:购买物品",
+          "node_name": "购买物品",
+          "node_type": "Action",
+          "group": "资金操作",
+          "case_count": 1,
+          "loss_sum": 71749.5,
+          "symbol_size": 14.16
+        }
+      ]
+    },
+    {
+      "node_id": "Action:下载APP",
+      "node_name": "下载APP",
+      "node_type": "Action",
+      "concept": "下载APP",
+      "group": "下载APP",
+      "case_count": 300,
+      "loss_sum": 8599993.8,
+      "symbol_size": 44.24,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "下载APP"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:线上入口",
+      "node_name": "线上入口",
+      "node_type": "Media",
+      "concept": "APP媒介",
+      "group": "线上入口",
+      "case_count": 291,
+      "loss_sum": 8602824.75,
+      "symbol_size": 44.06,
+      "is_group_proxy": true,
+      "member_count": 5,
+      "member_preview": [
+        "APP",
+        "二维码",
+        "广告",
+        "浏览器",
+        "网站链接"
+      ],
+      "members": [
+        {
+          "node_id": "Media:APP",
+          "node_name": "APP",
+          "node_type": "Media",
+          "group": "线上入口",
+          "case_count": 255,
+          "loss_sum": 7421487.85,
+          "symbol_size": 43.27
+        },
+        {
+          "node_id": "Media:网站链接",
+          "node_name": "网站链接",
+          "node_type": "Media",
+          "group": "线上入口",
+          "case_count": 44,
+          "loss_sum": 891227.9,
+          "symbol_size": 32.84
+        },
+        {
+          "node_id": "Media:二维码",
+          "node_name": "二维码",
+          "node_type": "Media",
+          "group": "线上入口",
+          "case_count": 6,
+          "loss_sum": 167888.0,
+          "symbol_size": 21.68
+        },
+        {
+          "node_id": "Media:广告",
+          "node_name": "广告",
+          "node_type": "Media",
+          "group": "线上入口",
+          "case_count": 3,
+          "loss_sum": 105788.0,
+          "symbol_size": 18.32
+        },
+        {
+          "node_id": "Media:浏览器",
+          "node_name": "浏览器",
+          "node_type": "Media",
+          "group": "线上入口",
+          "case_count": 2,
+          "loss_sum": 16433.0,
+          "symbol_size": 16.59
+        }
+      ]
+    },
+    {
+      "node_id": "Action:链接",
+      "node_name": "链接",
+      "node_type": "Action",
+      "concept": "链接",
+      "group": "链接",
+      "case_count": 206,
+      "loss_sum": 5988467.6,
+      "symbol_size": 42.0,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "链接"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:诱导下载APP",
+      "node_name": "诱导下载APP",
+      "node_type": "Script",
+      "concept": "诱导下载APP",
+      "group": "诱导下载APP",
+      "case_count": 65,
+      "loss_sum": 1571360.0,
+      "symbol_size": 35.14,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "诱导下载APP"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:敲诈勒索",
+      "node_name": "敲诈勒索",
+      "node_type": "Script",
+      "concept": "敲诈勒索",
+      "group": "敲诈勒索",
+      "case_count": 45,
+      "loss_sum": 1162336.4,
+      "symbol_size": 32.97,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "敲诈勒索"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:交友软件",
+      "node_name": "交友软件",
+      "node_type": "Media",
+      "concept": "",
+      "group": "交友软件",
+      "case_count": 30,
+      "loss_sum": 703039.8,
+      "symbol_size": 30.6,
+      "is_group_proxy": true,
+      "member_count": 2,
+      "member_preview": [
+        "探探",
+        "陌陌"
+      ],
+      "members": [
+        {
+          "node_id": "Media:陌陌",
+          "node_name": "陌陌",
+          "node_type": "Media",
+          "group": "交友软件",
+          "case_count": 23,
+          "loss_sum": 541818.8,
+          "symbol_size": 29.07
+        },
+        {
+          "node_id": "Media:探探",
+          "node_name": "探探",
+          "node_type": "Media",
+          "group": "交友软件",
+          "case_count": 5,
+          "loss_sum": 73621.0,
+          "symbol_size": 20.75
+        }
+      ]
+    },
+    {
+      "node_id": "Script:不雅互动",
+      "node_name": "不雅互动",
+      "node_type": "Script",
+      "concept": "不雅互动",
+      "group": "不雅互动",
+      "case_count": 27,
+      "loss_sum": 717346.0,
+      "symbol_size": 29.99,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "不雅互动"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:短信电话",
+      "node_name": "短信电话",
+      "node_type": "Media",
+      "concept": "电话媒介",
+      "group": "短信电话",
+      "case_count": 26,
+      "loss_sum": 411718.0,
+      "symbol_size": 29.78,
+      "is_group_proxy": true,
+      "member_count": 3,
+      "member_preview": [
+        "手机",
+        "手机商城",
+        "电话"
+      ],
+      "members": [
+        {
+          "node_id": "Media:电话",
+          "node_name": "电话",
+          "node_type": "Media",
+          "group": "短信电话",
+          "case_count": 21,
+          "loss_sum": 219338.0,
+          "symbol_size": 28.55
+        },
+        {
+          "node_id": "Media:手机",
+          "node_name": "手机",
+          "node_type": "Media",
+          "group": "短信电话",
+          "case_count": 2,
+          "loss_sum": 107780.0,
+          "symbol_size": 16.59
+        },
+        {
+          "node_id": "Media:手机商城",
+          "node_name": "手机商城",
+          "node_type": "Media",
+          "group": "短信电话",
+          "case_count": 1,
+          "loss_sum": 25000.0,
+          "symbol_size": 14.16
+        }
+      ]
+    },
+    {
+      "node_id": "Script:诱导点击链接",
+      "node_name": "诱导点击链接",
+      "node_type": "Script",
+      "concept": "诱导点击链接",
+      "group": "诱导点击链接",
+      "case_count": 25,
+      "loss_sum": 501409.0,
+      "symbol_size": 29.55,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "诱导点击链接"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:聊天",
+      "node_name": "聊天",
+      "node_type": "Script",
+      "concept": "聊天",
+      "group": "聊天",
+      "case_count": 23,
+      "loss_sum": 636912.5,
+      "symbol_size": 29.07,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "聊天"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:支付渠道",
+      "node_name": "支付渠道",
+      "node_type": "Media",
+      "concept": "银行卡媒介",
+      "group": "支付渠道",
+      "case_count": 20,
+      "loss_sum": 928230.4,
+      "symbol_size": 28.27,
+      "is_group_proxy": true,
+      "member_count": 4,
+      "member_preview": [
+        "支付宝",
+        "网银",
+        "银行",
+        "银行卡"
+      ],
+      "members": [
+        {
+          "node_id": "Media:银行",
+          "node_name": "银行",
+          "node_type": "Media",
+          "group": "支付渠道",
+          "case_count": 10,
+          "loss_sum": 455221.5,
+          "symbol_size": 24.39
+        },
+        {
+          "node_id": "Media:支付宝",
+          "node_name": "支付宝",
+          "node_type": "Media",
+          "group": "支付渠道",
+          "case_count": 6,
+          "loss_sum": 141741.9,
+          "symbol_size": 21.68
+        },
+        {
+          "node_id": "Media:银行卡",
+          "node_name": "银行卡",
+          "node_type": "Media",
+          "group": "支付渠道",
+          "case_count": 6,
+          "loss_sum": 287257.0,
+          "symbol_size": 21.68
+        },
+        {
+          "node_id": "Media:网银",
+          "node_name": "网银",
+          "node_type": "Media",
+          "group": "支付渠道",
+          "case_count": 3,
+          "loss_sum": 44010.0,
+          "symbol_size": 18.32
+        }
+      ]
+    },
+    {
+      "node_id": "Action:添加联系方式",
+      "node_name": "添加联系方式",
+      "node_type": "Action",
+      "concept": "添加联系方式",
+      "group": "添加联系方式",
+      "case_count": 18,
+      "loss_sum": 520318.0,
+      "symbol_size": 27.67,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "添加联系方式"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:诱导填写信息",
+      "node_name": "诱导填写信息",
+      "node_type": "Script",
+      "concept": "获取通信录信息",
+      "group": "诱导填写信息",
+      "case_count": 18,
+      "loss_sum": 420029.0,
+      "symbol_size": 27.67,
+      "is_group_proxy": true,
+      "member_count": 4,
+      "member_preview": [
+        "威胁泄露通讯录好友信息",
+        "索要位置信息",
+        "获取通讯录信息威胁",
+        "要求输入验证码"
+      ],
+      "members": [
+        {
+          "node_id": "Script:威胁泄露通讯录好友信息",
+          "node_name": "威胁泄露通讯录好友信息",
+          "node_type": "Script",
+          "group": "诱导填写信息",
+          "case_count": 1,
+          "loss_sum": 6888.0,
+          "symbol_size": 14.16
+        },
+        {
+          "node_id": "Script:索要位置信息",
+          "node_name": "索要位置信息",
+          "node_type": "Script",
+          "group": "诱导填写信息",
+          "case_count": 1,
+          "loss_sum": 43000.0,
+          "symbol_size": 14.16
+        },
+        {
+          "node_id": "Script:获取通讯录信息威胁",
+          "node_name": "获取通讯录信息威胁",
+          "node_type": "Script",
+          "group": "诱导填写信息",
+          "case_count": 1,
+          "loss_sum": 6341.0,
+          "symbol_size": 14.16
+        },
+        {
+          "node_id": "Script:要求输入验证码",
+          "node_name": "要求输入验证码",
+          "node_type": "Script",
+          "group": "诱导填写信息",
+          "case_count": 1,
+          "loss_sum": 3888.0,
+          "symbol_size": 14.16
+        }
+      ]
+    },
+    {
+      "node_id": "Action:QQ",
+      "node_name": "QQ",
+      "node_type": "Action",
+      "concept": "QQ",
+      "group": "QQ",
+      "case_count": 17,
+      "loss_sum": 481479.0,
+      "symbol_size": 27.34,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "QQ"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:注册账号",
+      "node_name": "注册账号",
+      "node_type": "Action",
+      "concept": "注册账号",
+      "group": "注册账号",
+      "case_count": 15,
+      "loss_sum": 321038.0,
+      "symbol_size": 26.64,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "注册账号"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:资金限制话术",
+      "node_name": "资金限制话术",
+      "node_type": "Script",
+      "concept": "提现失败",
+      "group": "资金限制话术",
+      "case_count": 12,
+      "loss_sum": 318033.0,
+      "symbol_size": 25.39,
+      "is_group_proxy": true,
+      "member_count": 2,
+      "member_preview": [
+        "垫付资金",
+        "提现失败"
+      ],
+      "members": [
+        {
+          "node_id": "Script:提现失败",
+          "node_name": "提现失败",
+          "node_type": "Script",
+          "group": "资金限制话术",
+          "case_count": 11,
+          "loss_sum": 223953.0,
+          "symbol_size": 24.91
+        },
+        {
+          "node_id": "Script:垫付资金",
+          "node_name": "垫付资金",
+          "node_type": "Script",
+          "group": "资金限制话术",
+          "case_count": 1,
+          "loss_sum": 94080.0,
+          "symbol_size": 14.16
+        }
+      ]
+    },
+    {
+      "node_id": "Action:聊天",
+      "node_name": "聊天",
+      "node_type": "Action",
+      "concept": "聊天",
+      "group": "聊天",
+      "case_count": 7,
+      "loss_sum": 187032.0,
+      "symbol_size": 22.48,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "聊天"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:裸聊",
+      "node_name": "裸聊",
+      "node_type": "Action",
+      "concept": "裸聊",
+      "group": "裸聊",
+      "case_count": 7,
+      "loss_sum": 144610.0,
+      "symbol_size": 22.48,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "裸聊"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:电商平台",
+      "node_name": "电商平台",
+      "node_type": "Media",
+      "concept": "闲鱼媒介",
+      "group": "电商平台",
+      "case_count": 5,
+      "loss_sum": 154682.0,
+      "symbol_size": 20.75,
+      "is_group_proxy": true,
+      "member_count": 2,
+      "member_preview": [
+        "京东",
+        "闲鱼"
+      ],
+      "members": [
+        {
+          "node_id": "Media:京东",
+          "node_name": "京东",
+          "node_type": "Media",
+          "group": "电商平台",
+          "case_count": 4,
+          "loss_sum": 59082.0,
+          "symbol_size": 19.66
+        },
+        {
+          "node_id": "Media:闲鱼",
+          "node_name": "闲鱼",
+          "node_type": "Media",
+          "group": "电商平台",
+          "case_count": 1,
+          "loss_sum": 95600.0,
+          "symbol_size": 14.16
+        }
+      ]
+    },
+    {
+      "node_id": "Script:QQ",
+      "node_name": "QQ",
+      "node_type": "Script",
+      "concept": "QQ",
+      "group": "QQ",
+      "case_count": 5,
+      "loss_sum": 96500.0,
+      "symbol_size": 20.75,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "QQ"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:网络",
+      "node_name": "网络",
+      "node_type": "Media",
+      "concept": "",
+      "group": "网络",
+      "case_count": 4,
+      "loss_sum": 58710.0,
+      "symbol_size": 19.66,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "网络"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁转账",
+      "node_name": "威胁转账",
+      "node_type": "Script",
+      "concept": "威胁转账",
+      "group": "威胁转账",
+      "case_count": 4,
+      "loss_sum": 137660.0,
+      "symbol_size": 19.66,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁转账"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:添加联系方式",
+      "node_name": "添加联系方式",
+      "node_type": "Script",
+      "concept": "添加联系方式",
+      "group": "添加联系方式",
+      "case_count": 4,
+      "loss_sum": 128603.0,
+      "symbol_size": 19.66,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "添加联系方式"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:微信",
+      "node_name": "微信",
+      "node_type": "Action",
+      "concept": "微信",
+      "group": "微信",
+      "case_count": 3,
+      "loss_sum": 63229.0,
+      "symbol_size": 18.32,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "微信"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:视频",
+      "node_name": "视频",
+      "node_type": "Media",
+      "concept": "",
+      "group": "视频",
+      "case_count": 3,
+      "loss_sum": 48022.0,
+      "symbol_size": 18.32,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "视频"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:附近的人",
+      "node_name": "附近的人",
+      "node_type": "Media",
+      "concept": "",
+      "group": "附近的人",
+      "case_count": 3,
+      "loss_sum": 87821.5,
+      "symbol_size": 18.32,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "附近的人"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:贷款征信诱导",
+      "node_name": "贷款征信诱导",
+      "node_type": "Script",
+      "concept": "贷款办卡诱导",
+      "group": "贷款征信诱导",
+      "case_count": 3,
+      "loss_sum": 58522.0,
+      "symbol_size": 18.32,
+      "is_group_proxy": true,
+      "member_count": 2,
+      "member_preview": [
+        "征信修复诱导",
+        "贷款办卡诱导"
+      ],
+      "members": [
+        {
+          "node_id": "Script:贷款办卡诱导",
+          "node_name": "贷款办卡诱导",
+          "node_type": "Script",
+          "group": "贷款征信诱导",
+          "case_count": 2,
+          "loss_sum": 56500.0,
+          "symbol_size": 16.59
+        },
+        {
+          "node_id": "Script:征信修复诱导",
+          "node_name": "征信修复诱导",
+          "node_type": "Script",
+          "group": "贷款征信诱导",
+          "case_count": 1,
+          "loss_sum": 2022.0,
+          "symbol_size": 14.16
+        }
+      ]
+    },
+    {
+      "node_id": "Action:二维码",
+      "node_name": "二维码",
+      "node_type": "Action",
+      "concept": "二维码",
+      "group": "二维码",
+      "case_count": 2,
+      "loss_sum": 78600.0,
+      "symbol_size": 16.59,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "二维码"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:输入手机号",
+      "node_name": "输入手机号",
+      "node_type": "Action",
+      "concept": "输入手机号",
+      "group": "输入手机号",
+      "case_count": 2,
+      "loss_sum": 79000.0,
+      "symbol_size": 16.59,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "输入手机号"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:视频裸聊",
+      "node_name": "视频裸聊",
+      "node_type": "Media",
+      "concept": "",
+      "group": "视频裸聊",
+      "case_count": 2,
+      "loss_sum": 10822.0,
+      "symbol_size": 16.59,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "视频裸聊"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁发送通讯录截图",
+      "node_name": "威胁发送通讯录截图",
+      "node_type": "Script",
+      "concept": "威胁发送通讯录截图",
+      "group": "威胁发送通讯录截图",
+      "case_count": 2,
+      "loss_sum": 11388.0,
+      "symbol_size": 16.59,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁发送通讯录截图"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:录制私密视频",
+      "node_name": "录制私密视频",
+      "node_type": "Script",
+      "concept": "录制私密视频",
+      "group": "录制私密视频",
+      "case_count": 2,
+      "loss_sum": 10900.0,
+      "symbol_size": 16.59,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "录制私密视频"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:转账",
+      "node_name": "转账",
+      "node_type": "Script",
+      "concept": "转账",
+      "group": "转账",
+      "case_count": 2,
+      "loss_sum": 4044.0,
+      "symbol_size": 16.59,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "转账"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:借贷12000元人民币",
+      "node_name": "借贷12000元人民币",
+      "node_type": "Action",
+      "concept": "借贷12000元人民币",
+      "group": "借贷12000元人民币",
+      "case_count": 1,
+      "loss_sum": 20000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "借贷12000元人民币"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:向通讯录联系人威胁",
+      "node_name": "向通讯录联系人威胁",
+      "node_type": "Action",
+      "concept": "向通讯录联系人威胁",
+      "group": "向通讯录联系人威胁",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "向通讯录联系人威胁"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:填写手机号和邀请码",
+      "node_name": "填写手机号和邀请码",
+      "node_type": "Action",
+      "concept": "填写手机号和邀请码",
+      "group": "填写手机号和邀请码",
+      "case_count": 1,
+      "loss_sum": 36800.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "填写手机号和邀请码"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:填写邀请码",
+      "node_name": "填写邀请码",
+      "node_type": "Action",
+      "concept": "填写邀请码",
+      "group": "填写邀请码",
+      "case_count": 1,
+      "loss_sum": 64976.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "填写邀请码"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:归还20000元人民币",
+      "node_name": "归还20000元人民币",
+      "node_type": "Action",
+      "concept": "归还20000元人民币",
+      "group": "归还20000元人民币",
+      "case_count": 1,
+      "loss_sum": 20000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "归还20000元人民币"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:授权相关权限",
+      "node_name": "授权相关权限",
+      "node_type": "Action",
+      "concept": "授权相关权限",
+      "group": "授权相关权限",
+      "case_count": 1,
+      "loss_sum": 22022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "授权相关权限"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:授权通讯录信息",
+      "node_name": "授权通讯录信息",
+      "node_type": "Action",
+      "concept": "授权通讯录信息",
+      "group": "授权通讯录信息",
+      "case_count": 1,
+      "loss_sum": 45600.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "授权通讯录信息"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:授权隐私信息",
+      "node_name": "授权隐私信息",
+      "node_type": "Action",
+      "concept": "授权隐私信息",
+      "group": "授权隐私信息",
+      "case_count": 1,
+      "loss_sum": 2701.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "授权隐私信息"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:提供位置信息",
+      "node_name": "提供位置信息",
+      "node_type": "Action",
+      "concept": "提供位置信息",
+      "group": "提供位置信息",
+      "case_count": 1,
+      "loss_sum": 43000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "提供位置信息"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:支付1000元至2000元",
+      "node_name": "支付1000元至2000元",
+      "node_type": "Action",
+      "concept": "支付1000元至2000元",
+      "group": "支付1000元至2000元",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "支付1000元至2000元"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:支付5万元",
+      "node_name": "支付5万元",
+      "node_type": "Action",
+      "concept": "支付5万元",
+      "group": "支付5万元",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "支付5万元"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:敲诈",
+      "node_name": "敲诈",
+      "node_type": "Action",
+      "concept": "敲诈",
+      "group": "敲诈",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "敲诈"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:私信联系",
+      "node_name": "私信联系",
+      "node_type": "Action",
+      "concept": "私信联系",
+      "group": "私信联系",
+      "case_count": 1,
+      "loss_sum": 8000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "私信联系"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:联系对方",
+      "node_name": "联系对方",
+      "node_type": "Action",
+      "concept": "联系对方",
+      "group": "联系对方",
+      "case_count": 1,
+      "loss_sum": 12800.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "联系对方"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:获取通信录",
+      "node_name": "获取通信录",
+      "node_type": "Action",
+      "concept": "获取通信录",
+      "group": "获取通信录",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "获取通信录"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:视频通话",
+      "node_name": "视频通话",
+      "node_type": "Action",
+      "concept": "视频通话",
+      "group": "视频通话",
+      "case_count": 1,
+      "loss_sum": 65800.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "视频通话"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:输入信息",
+      "node_name": "输入信息",
+      "node_type": "Action",
+      "concept": "输入信息",
+      "group": "输入信息",
+      "case_count": 1,
+      "loss_sum": 10000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "输入信息"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:输入房间号",
+      "node_name": "输入房间号",
+      "node_type": "Action",
+      "concept": "输入房间号",
+      "group": "输入房间号",
+      "case_count": 1,
+      "loss_sum": 25000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "输入房间号"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:输入手机号和验证码",
+      "node_name": "输入手机号和验证码",
+      "node_type": "Action",
+      "concept": "输入手机号和验证码",
+      "group": "输入手机号和验证码",
+      "case_count": 1,
+      "loss_sum": 14000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "输入手机号和验证码"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:输入邀请码",
+      "node_name": "输入邀请码",
+      "node_type": "Action",
+      "concept": "输入邀请码",
+      "group": "输入邀请码",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "输入邀请码"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:进行视频互动",
+      "node_name": "进行视频互动",
+      "node_type": "Action",
+      "concept": "进行视频互动",
+      "group": "进行视频互动",
+      "case_count": 1,
+      "loss_sum": 12500.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "进行视频互动"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:进行语音通话",
+      "node_name": "进行语音通话",
+      "node_type": "Action",
+      "concept": "进行语音通话",
+      "group": "进行语音通话",
+      "case_count": 1,
+      "loss_sum": 14000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "进行语音通话"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Action:通讯录信息被窃取",
+      "node_name": "通讯录信息被窃取",
+      "node_type": "Action",
+      "concept": "通讯录信息被窃取",
+      "group": "通讯录信息被窃取",
+      "case_count": 1,
+      "loss_sum": 15800.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "通讯录信息被窃取"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:小视频",
+      "node_name": "小视频",
+      "node_type": "Media",
+      "concept": "",
+      "group": "小视频",
+      "case_count": 1,
+      "loss_sum": 85000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "小视频"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:数字人民币",
+      "node_name": "数字人民币",
+      "node_type": "Media",
+      "concept": "",
+      "group": "数字人民币",
+      "case_count": 1,
+      "loss_sum": 26799.5,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "数字人民币"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:朋友圈",
+      "node_name": "朋友圈",
+      "node_type": "Media",
+      "concept": "",
+      "group": "朋友圈",
+      "case_count": 1,
+      "loss_sum": 2888.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "朋友圈"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:漂流瓶小程序",
+      "node_name": "漂流瓶小程序",
+      "node_type": "Media",
+      "concept": "",
+      "group": "漂流瓶小程序",
+      "case_count": 1,
+      "loss_sum": 5000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "漂流瓶小程序"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Media:电报消息",
+      "node_name": "电报消息",
+      "node_type": "Media",
+      "concept": "",
+      "group": "电报消息",
+      "case_count": 1,
+      "loss_sum": 85000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "电报消息"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:以裸露视频和通讯录内容要挟转账",
+      "node_name": "以裸露视频和通讯录内容要挟转账",
+      "node_type": "Script",
+      "concept": "以裸露视频和通讯录内容要挟转账",
+      "group": "以裸露视频和通讯录内容要挟转账",
+      "case_count": 1,
+      "loss_sum": 14888.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "以裸露视频和通讯录内容要挟转账"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:发送内含报警人脸部及下体的视频威胁转账",
+      "node_name": "发送内含报警人脸部及下体的视频威胁转账",
+      "node_type": "Script",
+      "concept": "发送内含报警人脸部及下体的视频威胁转账",
+      "group": "发送内含报警人脸部及下体的视频威胁转账",
+      "case_count": 1,
+      "loss_sum": 36800.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "发送内含报警人脸部及下体的视频威胁转账"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:发送压缩包和邀请码",
+      "node_name": "发送压缩包和邀请码",
+      "node_type": "Script",
+      "concept": "发送压缩包和邀请码",
+      "group": "发送压缩包和邀请码",
+      "case_count": 1,
+      "loss_sum": 64976.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "发送压缩包和邀请码"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:发送行政拘留决定书给亲朋好友为要挟",
+      "node_name": "发送行政拘留决定书给亲朋好友为要挟",
+      "node_type": "Script",
+      "concept": "发送行政拘留决定书给亲朋好友为要挟",
+      "group": "发送行政拘留决定书给亲朋好友为要挟",
+      "case_count": 1,
+      "loss_sum": 2023.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "发送行政拘留决定书给亲朋好友为要挟"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:发送通讯录和视频内容威胁",
+      "node_name": "发送通讯录和视频内容威胁",
+      "node_type": "Script",
+      "concept": "发送通讯录和视频内容威胁",
+      "group": "发送通讯录和视频内容威胁",
+      "case_count": 1,
+      "loss_sum": 38000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "发送通讯录和视频内容威胁"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:合成手淫视频要挟转账",
+      "node_name": "合成手淫视频要挟转账",
+      "node_type": "Script",
+      "concept": "合成手淫视频要挟转账",
+      "group": "合成手淫视频要挟转账",
+      "case_count": 1,
+      "loss_sum": 6800.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "合成手淫视频要挟转账"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁发送裸露照片给家人及朋友",
+      "node_name": "威胁发送裸露照片给家人及朋友",
+      "node_type": "Script",
+      "concept": "威胁发送裸露照片给家人及朋友",
+      "group": "威胁发送裸露照片给家人及朋友",
+      "case_count": 1,
+      "loss_sum": 5000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁发送裸露照片给家人及朋友"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁发送视频给亲人",
+      "node_name": "威胁发送视频给亲人",
+      "node_type": "Script",
+      "concept": "威胁发送视频给亲人",
+      "group": "威胁发送视频给亲人",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁发送视频给亲人"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁发送视频至通讯录好友",
+      "node_name": "威胁发送视频至通讯录好友",
+      "node_type": "Script",
+      "concept": "威胁发送视频至通讯录好友",
+      "group": "威胁发送视频至通讯录好友",
+      "case_count": 1,
+      "loss_sum": 6000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁发送视频至通讯录好友"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁发送通讯录好友清单",
+      "node_name": "威胁发送通讯录好友清单",
+      "node_type": "Script",
+      "concept": "威胁发送通讯录好友清单",
+      "group": "威胁发送通讯录好友清单",
+      "case_count": 1,
+      "loss_sum": 26799.5,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁发送通讯录好友清单"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁曝光私密文件",
+      "node_name": "威胁曝光私密文件",
+      "node_type": "Script",
+      "concept": "威胁曝光私密文件",
+      "group": "威胁曝光私密文件",
+      "case_count": 1,
+      "loss_sum": 45000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁曝光私密文件"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁曝光通讯录",
+      "node_name": "威胁曝光通讯录",
+      "node_type": "Script",
+      "concept": "威胁曝光通讯录",
+      "group": "威胁曝光通讯录",
+      "case_count": 1,
+      "loss_sum": 65800.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁曝光通讯录"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁曝光隐私",
+      "node_name": "威胁曝光隐私",
+      "node_type": "Script",
+      "concept": "威胁曝光隐私",
+      "group": "威胁曝光隐私",
+      "case_count": 1,
+      "loss_sum": 12500.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁曝光隐私"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:威胁让事主转钱",
+      "node_name": "威胁让事主转钱",
+      "node_type": "Script",
+      "concept": "威胁让事主转钱",
+      "group": "威胁让事主转钱",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "威胁让事主转钱"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:录制视频威胁",
+      "node_name": "录制视频威胁",
+      "node_type": "Script",
+      "concept": "录制视频威胁",
+      "group": "录制视频威胁",
+      "case_count": 1,
+      "loss_sum": 73700.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "录制视频威胁"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:拨打110举报娱乐场所涉黄",
+      "node_name": "拨打110举报娱乐场所涉黄",
+      "node_type": "Script",
+      "concept": "拨打110举报娱乐场所涉黄",
+      "group": "拨打110举报娱乐场所涉黄",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "拨打110举报娱乐场所涉黄"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:故意撞车",
+      "node_name": "故意撞车",
+      "node_type": "Script",
+      "concept": "故意撞车",
+      "group": "故意撞车",
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "故意撞车"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:暧昧挑逗",
+      "node_name": "暧昧挑逗",
+      "node_type": "Script",
+      "concept": "暧昧挑逗",
+      "group": "暧昧挑逗",
+      "case_count": 1,
+      "loss_sum": 22022.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "暧昧挑逗"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:查看私密空间里的视频和照片",
+      "node_name": "查看私密空间里的视频和照片",
+      "node_type": "Script",
+      "concept": "查看私密空间里的视频和照片",
+      "group": "查看私密空间里的视频和照片",
+      "case_count": 1,
+      "loss_sum": 36888.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "查看私密空间里的视频和照片"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:用合成照片和通讯录威胁转账",
+      "node_name": "用合成照片和通讯录威胁转账",
+      "node_type": "Script",
+      "concept": "用合成照片和通讯录威胁转账",
+      "group": "用合成照片和通讯录威胁转账",
+      "case_count": 1,
+      "loss_sum": 25000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "用合成照片和通讯录威胁转账"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:窃取通讯录要挟转账",
+      "node_name": "窃取通讯录要挟转账",
+      "node_type": "Script",
+      "concept": "窃取通讯录要挟转账",
+      "group": "窃取通讯录要挟转账",
+      "case_count": 1,
+      "loss_sum": 95600.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "窃取通讯录要挟转账"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:线下约见",
+      "node_name": "线下约见",
+      "node_type": "Script",
+      "concept": "线下约见",
+      "group": "线下约见",
+      "case_count": 1,
+      "loss_sum": 6888.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "线下约见"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:裸露身体互看",
+      "node_name": "裸露身体互看",
+      "node_type": "Script",
+      "concept": "裸露身体互看",
+      "group": "裸露身体互看",
+      "case_count": 1,
+      "loss_sum": 45600.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "裸露身体互看"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:要挟转账",
+      "node_name": "要挟转账",
+      "node_type": "Script",
+      "concept": "要挟转账",
+      "group": "要挟转账",
+      "case_count": 1,
+      "loss_sum": 8000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "要挟转账"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:言语威胁转账",
+      "node_name": "言语威胁转账",
+      "node_type": "Script",
+      "concept": "言语威胁转账",
+      "group": "言语威胁转账",
+      "case_count": 1,
+      "loss_sum": 5000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "言语威胁转账"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:转账至对方账户",
+      "node_name": "转账至对方账户",
+      "node_type": "Script",
+      "concept": "转账至对方账户",
+      "group": "转账至对方账户",
+      "case_count": 1,
+      "loss_sum": 36800.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "转账至对方账户"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:通过语音会议获取卡号",
+      "node_name": "通过语音会议获取卡号",
+      "node_type": "Script",
+      "concept": "通过语音会议获取卡号",
+      "group": "通过语音会议获取卡号",
+      "case_count": 1,
+      "loss_sum": 10000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "通过语音会议获取卡号"
+      ],
+      "members": []
+    },
+    {
+      "node_id": "Script:隐私照片转发给通讯录亲友",
+      "node_name": "隐私照片转发给通讯录亲友",
+      "node_type": "Script",
+      "concept": "隐私照片转发给通讯录亲友",
+      "group": "隐私照片转发给通讯录亲友",
+      "case_count": 1,
+      "loss_sum": 4000.0,
+      "symbol_size": 14.16,
+      "is_group_proxy": false,
+      "member_count": 1,
+      "member_preview": [
+        "隐私照片转发给通讯录亲友"
+      ],
+      "members": []
+    }
+  ],
+  "edges": [
+    {
+      "src_id": "Media:社交媒体",
+      "dst_id": "Script:威胁发送裸聊视频",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 317,
+      "loss_sum": 7988450.9,
+      "line_width": 6.96
+    },
+    {
+      "src_id": "Script:威胁发送裸聊视频",
+      "dst_id": "Action:资金操作",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 311,
+      "loss_sum": 7849425.75,
+      "line_width": 6.94
+    },
+    {
+      "src_id": "Script:威胁发送裸聊视频",
+      "dst_id": "Action:下载APP",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 238,
+      "loss_sum": 6395177.3,
+      "line_width": 6.68
+    },
+    {
+      "src_id": "Media:线上入口",
+      "dst_id": "Script:威胁发送裸聊视频",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 229,
+      "loss_sum": 5501181.85,
+      "line_width": 6.64
+    },
+    {
+      "src_id": "Action:下载APP",
+      "dst_id": "Action:资金操作",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 157,
+      "loss_sum": 4218819.5,
+      "line_width": 6.26
+    },
+    {
+      "src_id": "Script:威胁发送裸聊视频",
+      "dst_id": "Action:链接",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 157,
+      "loss_sum": 4667392.3,
+      "line_width": 6.26
+    },
+    {
+      "src_id": "Action:链接",
+      "dst_id": "Action:下载APP",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 96,
+      "loss_sum": 3092451.5,
+      "line_width": 5.77
+    },
+    {
+      "src_id": "Action:下载APP",
+      "dst_id": "Action:链接",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 69,
+      "loss_sum": 1916326.3,
+      "line_width": 5.45
+    },
+    {
+      "src_id": "Media:社交媒体",
+      "dst_id": "Script:诱导下载APP",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 58,
+      "loss_sum": 1371116.0,
+      "line_width": 5.28
+    },
+    {
+      "src_id": "Script:诱导下载APP",
+      "dst_id": "Action:下载APP",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 54,
+      "loss_sum": 1355317.0,
+      "line_width": 5.21
+    },
+    {
+      "src_id": "Script:诱导下载APP",
+      "dst_id": "Action:资金操作",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 53,
+      "loss_sum": 1239495.0,
+      "line_width": 5.19
+    },
+    {
+      "src_id": "Action:资金操作",
+      "dst_id": "Action:资金操作",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 45,
+      "loss_sum": 2604424.5,
+      "line_width": 5.03
+    },
+    {
+      "src_id": "Script:诱导下载APP",
+      "dst_id": "Action:链接",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 44,
+      "loss_sum": 1099110.0,
+      "line_width": 5.01
+    },
+    {
+      "src_id": "Media:线上入口",
+      "dst_id": "Script:诱导下载APP",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 43,
+      "loss_sum": 1008086.0,
+      "line_width": 4.98
+    },
+    {
+      "src_id": "Action:链接",
+      "dst_id": "Action:资金操作",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 37,
+      "loss_sum": 903566.7,
+      "line_width": 4.84
+    },
+    {
+      "src_id": "Script:敲诈勒索",
+      "dst_id": "Action:下载APP",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 36,
+      "loss_sum": 911090.0,
+      "line_width": 4.81
+    },
+    {
+      "src_id": "Media:社交媒体",
+      "dst_id": "Script:敲诈勒索",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 34,
+      "loss_sum": 984526.4,
+      "line_width": 4.76
+    },
+    {
+      "src_id": "Media:线上入口",
+      "dst_id": "Script:敲诈勒索",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 28,
+      "loss_sum": 667864.4,
+      "line_width": 4.57
+    },
+    {
+      "src_id": "Media:交友软件",
+      "dst_id": "Script:威胁发送裸聊视频",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 26,
+      "loss_sum": 648917.8,
+      "line_width": 4.5
+    },
+    {
+      "src_id": "Script:敲诈勒索",
+      "dst_id": "Action:链接",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 26,
+      "loss_sum": 636668.4,
+      "line_width": 4.5
+    },
+    {
+      "src_id": "Media:社交媒体",
+      "dst_id": "Script:不雅互动",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 22,
+      "loss_sum": 620658.0,
+      "line_width": 4.34
+    },
+    {
+      "src_id": "Media:社交媒体",
+      "dst_id": "Script:聊天",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 22,
+      "loss_sum": 625612.5,
+      "line_width": 4.34
+    },
+    {
+      "src_id": "Media:社交媒体",
+      "dst_id": "Script:诱导点击链接",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 21,
+      "loss_sum": 450377.0,
+      "line_width": 4.29
+    },
+    {
+      "src_id": "Media:线上入口",
+      "dst_id": "Script:诱导点击链接",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 14,
+      "loss_sum": 372846.0,
+      "line_width": 3.91
+    },
+    {
+      "src_id": "Media:线上入口",
+      "dst_id": "Script:聊天",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 13,
+      "loss_sum": 304924.5,
+      "line_width": 3.84
+    },
+    {
+      "src_id": "Media:线上入口",
+      "dst_id": "Script:诱导填写信息",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 12,
+      "loss_sum": 237029.0,
+      "line_width": 3.76
+    },
+    {
+      "src_id": "Media:短信电话",
+      "dst_id": "Script:诱导下载APP",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 8,
+      "loss_sum": 85427.0,
+      "line_width": 3.4
+    },
+    {
+      "src_id": "Media:支付渠道",
+      "dst_id": "Script:敲诈勒索",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 5,
+      "loss_sum": 91142.4,
+      "line_width": 2.99
+    },
+    {
+      "src_id": "Media:短信电话",
+      "dst_id": "Script:敲诈勒索",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 5,
+      "loss_sum": 96830.0,
+      "line_width": 2.99
+    },
+    {
+      "src_id": "Media:交友软件",
+      "dst_id": "Script:聊天",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 3,
+      "loss_sum": 23900.0,
+      "line_width": 2.59
+    },
+    {
+      "src_id": "Media:短信电话",
+      "dst_id": "Script:不雅互动",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 3,
+      "loss_sum": 14022.0,
+      "line_width": 2.59
+    },
+    {
+      "src_id": "Media:短信电话",
+      "dst_id": "Script:诱导点击链接",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 3,
+      "loss_sum": 12932.0,
+      "line_width": 2.59
+    },
+    {
+      "src_id": "Script:诱导填写信息",
+      "dst_id": "Action:QQ",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 3,
+      "loss_sum": 90688.0,
+      "line_width": 2.59
+    },
+    {
+      "src_id": "Action:QQ",
+      "dst_id": "Action:裸聊",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 2,
+      "loss_sum": 12689.0,
+      "line_width": 2.3
+    },
+    {
+      "src_id": "Media:交友软件",
+      "dst_id": "Script:诱导点击链接",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 2,
+      "loss_sum": 17900.0,
+      "line_width": 2.3
+    },
+    {
+      "src_id": "Media:支付渠道",
+      "dst_id": "Script:聊天",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 2,
+      "loss_sum": 55100.0,
+      "line_width": 2.3
+    },
+    {
+      "src_id": "Action:QQ",
+      "dst_id": "Action:QQ",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 8800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:QQ",
+      "dst_id": "Action:填写手机号和邀请码",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 36800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:QQ",
+      "dst_id": "Action:提供位置信息",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 43000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:借贷12000元人民币",
+      "dst_id": "Action:归还20000元人民币",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 20000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:微信",
+      "dst_id": "Action:借贷12000元人民币",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 20000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:提供位置信息",
+      "dst_id": "Action:裸聊",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 43000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:注册账号",
+      "dst_id": "Action:添加联系方式",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:注册账号",
+      "dst_id": "Action:聊天",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 73700.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:注册账号",
+      "dst_id": "Action:裸聊",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 43800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:注册账号",
+      "dst_id": "Action:通讯录信息被窃取",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 15800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:添加联系方式",
+      "dst_id": "Action:裸聊",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:添加联系方式",
+      "dst_id": "Action:视频通话",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 65800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:私信联系",
+      "dst_id": "Action:添加联系方式",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 8000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:聊天",
+      "dst_id": "Action:二维码",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 73700.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:获取通信录",
+      "dst_id": "Action:敲诈",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:输入手机号和验证码",
+      "dst_id": "Action:进行语音通话",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 14000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Action:通讯录信息被窃取",
+      "dst_id": "Action:裸聊",
+      "edge_type": "ACTION_PRECEDES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 15800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:交友软件",
+      "dst_id": "Script:不雅互动",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 34800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:交友软件",
+      "dst_id": "Script:威胁发送视频至通讯录好友",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 6000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:交友软件",
+      "dst_id": "Script:威胁曝光私密文件",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 45000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:小视频",
+      "dst_id": "Script:添加联系方式",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 85000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:支付渠道",
+      "dst_id": "Script:发送通讯录和视频内容威胁",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 38000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:支付渠道",
+      "dst_id": "Script:威胁发送通讯录好友清单",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 26799.5,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:支付渠道",
+      "dst_id": "Script:用合成照片和通讯录威胁转账",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 25000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:支付渠道",
+      "dst_id": "Script:转账",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:数字人民币",
+      "dst_id": "Script:威胁发送通讯录好友清单",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 26799.5,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:朋友圈",
+      "dst_id": "Script:威胁发送通讯录截图",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 2888.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:漂流瓶小程序",
+      "dst_id": "Script:威胁发送裸露照片给家人及朋友",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 5000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:电商平台",
+      "dst_id": "Script:不雅互动",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 23648.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:电商平台",
+      "dst_id": "Script:窃取通讯录要挟转账",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 95600.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:电报消息",
+      "dst_id": "Script:添加联系方式",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 85000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:短信电话",
+      "dst_id": "Script:QQ",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 25000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:短信电话",
+      "dst_id": "Script:发送行政拘留决定书给亲朋好友为要挟",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 2023.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:网络",
+      "dst_id": "Script:以裸露视频和通讯录内容要挟转账",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 14888.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:网络",
+      "dst_id": "Script:贷款征信诱导",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 20000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:视频",
+      "dst_id": "Script:言语威胁转账",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 5000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:视频裸聊",
+      "dst_id": "Script:威胁让事主转钱",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Media:附近的人",
+      "dst_id": "Script:威胁发送通讯录好友清单",
+      "edge_type": "MEDIA_HAS_SCRIPT",
+      "directed": false,
+      "case_count": 1,
+      "loss_sum": 26799.5,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:QQ",
+      "dst_id": "Action:输入房间号",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 25000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:不雅互动",
+      "dst_id": "Action:授权隐私信息",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 2701.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:不雅互动",
+      "dst_id": "Action:注册账号",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 30400.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:发送内含报警人脸部及下体的视频威胁转账",
+      "dst_id": "Action:添加联系方式",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 36800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:发送压缩包和邀请码",
+      "dst_id": "Action:填写邀请码",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 64976.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:合成手淫视频要挟转账",
+      "dst_id": "Action:注册账号",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 6800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:威胁发送视频给亲人",
+      "dst_id": "Action:聊天",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:威胁发送视频给亲人",
+      "dst_id": "Action:输入邀请码",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:威胁曝光通讯录",
+      "dst_id": "Action:添加联系方式",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 65800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:威胁曝光通讯录",
+      "dst_id": "Action:视频通话",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 65800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:威胁曝光隐私",
+      "dst_id": "Action:进行视频互动",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 12500.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:威胁转账",
+      "dst_id": "Action:裸聊",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 15800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:威胁转账",
+      "dst_id": "Action:通讯录信息被窃取",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 15800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:录制私密视频",
+      "dst_id": "Action:二维码",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 4900.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:录制视频威胁",
+      "dst_id": "Action:二维码",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 73700.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:录制视频威胁",
+      "dst_id": "Action:聊天",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 73700.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:拨打110举报娱乐场所涉黄",
+      "dst_id": "Action:支付1000元至2000元",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:故意撞车",
+      "dst_id": "Action:支付5万元",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:暧昧挑逗",
+      "dst_id": "Action:授权相关权限",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 22022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:查看私密空间里的视频和照片",
+      "dst_id": "Action:微信",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 36888.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:线下约见",
+      "dst_id": "Action:聊天",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 6888.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:聊天",
+      "dst_id": "Action:授权通讯录信息",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 45600.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:裸露身体互看",
+      "dst_id": "Action:授权通讯录信息",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 45600.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:要挟转账",
+      "dst_id": "Action:私信联系",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 8000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:诱导填写信息",
+      "dst_id": "Action:微信",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 6341.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:诱导填写信息",
+      "dst_id": "Action:提供位置信息",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 43000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:诱导填写信息",
+      "dst_id": "Action:聊天",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 6888.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:诱导点击链接",
+      "dst_id": "Action:填写手机号和邀请码",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 36800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:诱导点击链接",
+      "dst_id": "Action:联系对方",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 12800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:贷款征信诱导",
+      "dst_id": "Action:借贷12000元人民币",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 20000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:贷款征信诱导",
+      "dst_id": "Action:归还20000元人民币",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 20000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:贷款征信诱导",
+      "dst_id": "Action:微信",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 20000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:资金限制话术",
+      "dst_id": "Action:向通讯录联系人威胁",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 2022.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:资金限制话术",
+      "dst_id": "Action:输入手机号和验证码",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 14000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:资金限制话术",
+      "dst_id": "Action:进行语音通话",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 14000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:转账至对方账户",
+      "dst_id": "Action:填写手机号和邀请码",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 36800.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:通过语音会议获取卡号",
+      "dst_id": "Action:输入信息",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 10000.0,
+      "line_width": 1.89
+    },
+    {
+      "src_id": "Script:隐私照片转发给通讯录亲友",
+      "dst_id": "Action:输入手机号",
+      "edge_type": "SCRIPT_INDUCES_ACTION",
+      "directed": true,
+      "case_count": 1,
+      "loss_sum": 4000.0,
+      "line_width": 1.89
+    }
+  ]
+}

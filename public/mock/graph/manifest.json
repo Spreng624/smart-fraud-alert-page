@@ -1,0 +1,9 @@
+{
+  "input_path": "tmp\\preload\\ccl2023\\cases.jsonl",
+  "aligned_cases_path": "../tmp/graph/aligned_cases.jsonl",
+  "categories_path": "categories.json",
+  "entity_dict_dir": "../tmp/graph/entity_dicts",
+  "by_category_dir": "by_category",
+  "category_count": 12,
+  "default_view": "collapsed"
+}

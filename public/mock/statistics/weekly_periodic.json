@@ -1,0 +1,42 @@
+{
+    "type": "weekly_periodic",
+    "title": "电信诈骗案件周内周期性波动分析",
+    "xlabel": "星期",
+    "ylabel": "案件数量",
+    "data": [
+        {
+            "weekday_label": "周一",
+            "case_count": 5866
+        },
+        {
+            "weekday_label": "周二",
+            "case_count": 5817
+        },
+        {
+            "weekday_label": "周三",
+            "case_count": 6037
+        },
+        {
+            "weekday_label": "周四",
+            "case_count": 6224
+        },
+        {
+            "weekday_label": "周五",
+            "case_count": 7185
+        },
+        {
+            "weekday_label": "周六",
+            "case_count": 6172
+        },
+        {
+            "weekday_label": "周日",
+            "case_count": 5020
+        }
+    ],
+    "extras": {
+        "y2label": "平均损失金额(元)",
+        "peak_day": "周五",
+        "valid_case_count": 42321
+    },
+    "annotations": "基于可解析日期的案件统计结果显示，周五的案件量最高。工作日与周末的案件分布存在差异，可作为后续风险预警和宣传投放的参考。"
+}

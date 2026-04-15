@@ -35,6 +35,12 @@ npm run deploy
 
 当前前端构建已配置为以 `/smart-fraud-alert-page/` 作为生产环境基础路径。
 
+当前线上地址预期为：`https://spreng.top/smart-fraud-alert-page`
+
+如果后端不可用：
+- `statistics`、`victim`、`graph` 模块会自动回落到本地静态 JSON 数据
+- `risk` 模块会提示当前未连接后端，暂不可用
+
 ## 访问
 开发环境默认：http://localhost:5173
 

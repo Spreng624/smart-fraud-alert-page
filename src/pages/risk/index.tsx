@@ -1,8 +1,8 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type ComponentType, type ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Globe, MessageSquareWarning, PhoneCall, SearchCheck } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { request } from '@/utils/request';
+import { HAS_REMOTE_API, request } from '@/utils/request';
 
 type RiskEndpoint = 'scam_text' | 'fraud_call' | 'phishing_website' | 'phone_number';
 
@@ -57,28 +57,28 @@ const riskTools = [
     key: 'scam_text',
     title: '诈骗短信识别',
     shortTitle: '短信识别',
-    description: '粘贴短信内容，快速判断文本是否具有诈骗特征。',
+    description: '输入短信内容，检测是否存在诈骗诱导、冒充通知或异常链接。',
     icon: MessageSquareWarning,
   },
   {
     key: 'fraud_call',
     title: '诈骗电话识别',
     shortTitle: '电话识别',
-    description: '输入通话转写文本，识别诱导转账、冒充客服等风险。',
+    description: '输入通话转写文本，识别冒充客服、公检法或转账诱导等风险。',
     icon: PhoneCall,
   },
   {
     key: 'phishing_website',
     title: '钓鱼网站识别',
     shortTitle: '网址识别',
-    description: '输入 URL，分析目标站点是否存在钓鱼风险。',
+    description: '输入可疑网址，检查页面是否具有钓鱼站点特征。',
     icon: Globe,
   },
   {
     key: 'phone_number',
     title: '号码风险查询',
     shortTitle: '号码查询',
-    description: '校验号码有效性、归属地、运营商和号码类型。',
+    description: '输入号码，查询归属地、运营商、号码类型和基础有效性。',
     icon: SearchCheck,
   },
 ] satisfies ReadonlyArray<{
@@ -86,7 +86,7 @@ const riskTools = [
   title: string;
   shortTitle: string;
   description: string;
-  icon: React.ComponentType<{ className?: string }>;
+  icon: ComponentType<{ className?: string }>;
 }>;
 
 const riskMeta: Record<
@@ -102,30 +102,30 @@ const riskMeta: Record<
   scam_text: {
     title: '诈骗短信识别',
     actionText: '开始识别短信风险',
-    placeholder: '请输入需要识别的短信内容…',
+    placeholder: '请输入需要识别的短信内容...',
     inputType: 'textarea',
-    helperText: '支持粘贴短信正文、聊天记录片段或推广文案。',
+    helperText: '支持输入短信正文、聊天记录片段或营销推广文案。',
   },
   fraud_call: {
     title: '诈骗电话识别',
     actionText: '开始识别通话风险',
-    placeholder: '请输入通话转写文本或对话记录…',
+    placeholder: '请输入通话转写文本或对话记录...',
     inputType: 'textarea',
-    helperText: '建议输入尽量完整的对话上下文，便于模型判断话术风险。',
+    helperText: '建议尽量输入完整上下文，以便识别诱导转账、冒充客服等话术。',
   },
   phishing_website: {
     title: '钓鱼网站识别',
     actionText: '开始识别网址风险',
-    placeholder: '请输入可疑网址 URL…',
+    placeholder: '请输入可疑网址 URL...',
     inputType: 'text',
-    helperText: '支持域名或完整 URL，用于识别钓鱼站点和伪装页面。',
+    helperText: '支持输入域名或完整 URL，用于识别伪装站点和钓鱼页面。',
   },
   phone_number: {
     title: '号码风险查询',
     actionText: '开始查询号码信息',
-    placeholder: '请输入待查询的电话号码…',
+    placeholder: '请输入待查询的电话号码...',
     inputType: 'text',
-    helperText: '支持国内外号码的基础解析和有效性判断。',
+    helperText: '支持国内外号码的基础解析与有效性判断。',
   },
 };
 
@@ -140,19 +140,20 @@ const getEndpointFromPath = (pathname: string): RiskEndpoint => {
 
 const formatPercent = (value: number) => `${(value * 100).toFixed(2)}%`;
 
-const ResultRow = ({ label, value }: { label: string; value: React.ReactNode }) => (
+const ResultRow = ({ label, value }: { label: string; value: ReactNode }) => (
   <div className="border-b border-slate-200 py-3 last:border-b-0">
     <span className="text-sm font-medium text-slate-500">{label}</span>
     <div className="mt-1 break-all text-slate-800">{value}</div>
   </div>
 );
 
-export default function Risk() {
+export default function RiskPage() {
   const location = useLocation();
   const [input, setInput] = useState('');
   const [result, setResult] = useState<RiskResultMap[RiskEndpoint] | null>(null);
   const [errorMessage, setErrorMessage] = useState('');
   const [loading, setLoading] = useState(false);
+  const [serviceUnavailable, setServiceUnavailable] = useState(!HAS_REMOTE_API);
 
   const endpoint = useMemo(() => getEndpointFromPath(location.pathname), [location.pathname]);
   const currentMeta = riskMeta[endpoint];
@@ -161,12 +162,21 @@ export default function Risk() {
     setInput('');
     setResult(null);
     setErrorMessage('');
+    setServiceUnavailable(!HAS_REMOTE_API);
   }, [endpoint]);
 
+  const unavailableMessage = '当前没有连接后端，该模块暂不可用。';
+
   const handleIdentify = async () => {
+    if (serviceUnavailable) {
+      setResult(null);
+      setErrorMessage(unavailableMessage);
+      return;
+    }
+
     if (!input.trim()) {
       setResult(null);
-      setErrorMessage('请输入需要识别或查询的内容');
+      setErrorMessage('请输入需要识别或查询的内容。');
       return;
     }
 
@@ -180,14 +190,15 @@ export default function Risk() {
       })) as RiskApiResponse<RiskResultMap[typeof endpoint]>;
 
       if (!data.ok) {
-        throw new Error('接口返回失败');
+        throw new Error('API returned ok=false');
       }
 
       setResult(data.result);
     } catch (error) {
-      console.error('Request failed:', error);
+      console.error('Risk request failed:', error);
       setResult(null);
-      setErrorMessage('请求失败，请稍后重试');
+      setServiceUnavailable(true);
+      setErrorMessage(unavailableMessage);
     } finally {
       setLoading(false);
     }
@@ -213,7 +224,7 @@ export default function Risk() {
         return (
           <>
             <ResultRow label="通话内容" value={data.content} />
-            <ResultRow label="规范化内容" value={data.normalized_content} />
+            <ResultRow label="规范化文本" value={data.normalized_content} />
             <ResultRow label="判定结果" value={data.label} />
             <ResultRow label="诈骗概率" value={formatPercent(data.fraud_probability)} />
             <ResultRow label="正常概率" value={formatPercent(data.normal_probability)} />
@@ -317,30 +328,38 @@ export default function Risk() {
                 <p className="mt-2 text-base leading-7 text-slate-600">{currentMeta.helperText}</p>
               </div>
 
+              {serviceUnavailable && (
+                <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+                  当前没有连接后端，该模块暂不可用。风险识别需要实时调用后端模型服务。
+                </div>
+              )}
+
               <div>
                 <label className="text-sm font-semibold text-slate-700">输入内容</label>
                 {currentMeta.inputType === 'textarea' ? (
                   <textarea
-                    className="mt-3 min-h-56 w-full resize-y rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-800 outline-none transition focus:border-sky-400 focus:bg-white focus:ring-4 focus:ring-sky-100"
+                    className="mt-3 min-h-56 w-full resize-y rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-800 outline-none transition focus:border-sky-400 focus:bg-white focus:ring-4 focus:ring-sky-100 disabled:cursor-not-allowed disabled:opacity-60"
                     placeholder={currentMeta.placeholder}
                     value={input}
-                    onChange={(e) => setInput(e.target.value)}
+                    onChange={(event) => setInput(event.target.value)}
+                    disabled={serviceUnavailable}
                   />
                 ) : (
                   <input
-                    className="mt-3 w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-800 outline-none transition focus:border-sky-400 focus:bg-white focus:ring-4 focus:ring-sky-100"
+                    className="mt-3 w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-800 outline-none transition focus:border-sky-400 focus:bg-white focus:ring-4 focus:ring-sky-100 disabled:cursor-not-allowed disabled:opacity-60"
                     placeholder={currentMeta.placeholder}
                     value={input}
-                    onChange={(e) => setInput(e.target.value)}
+                    onChange={(event) => setInput(event.target.value)}
+                    disabled={serviceUnavailable}
                   />
                 )}
 
                 <button
                   onClick={handleIdentify}
-                  disabled={loading}
+                  disabled={loading || serviceUnavailable}
                   className="mt-5 inline-flex items-center rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60"
                 >
-                  {loading ? '识别中…' : currentMeta.actionText}
+                  {serviceUnavailable ? '后端未连接' : loading ? '识别中...' : currentMeta.actionText}
                 </button>
 
                 {errorMessage && (
@@ -353,14 +372,18 @@ export default function Risk() {
               <div className="rounded-[28px] border border-slate-200 bg-slate-50 p-5">
                 <div className="border-b border-slate-200 pb-4">
                   <p className="text-lg font-semibold text-slate-900">识别结果</p>
-                  <p className="mt-1 text-sm text-slate-500">当前模块的分析结果会显示在这里。</p>
+                  <p className="mt-1 text-sm text-slate-500">
+                    连接后端后，这里会显示当前模块对应的详细识别结果。
+                  </p>
                 </div>
 
                 {result ? (
                   <div className="mt-4">{renderResult()}</div>
                 ) : (
                   <div className="mt-4 rounded-2xl border border-dashed border-slate-300 bg-white px-5 py-8 text-sm leading-7 text-slate-500">
-                    暂无结果。输入内容后点击“{currentMeta.actionText}”，即可在这里查看详细识别信息。
+                    {serviceUnavailable
+                      ? '当前未连接后端服务，因此风险识别模块仅展示交互界面，不提供识别结果。'
+                      : `输入内容后点击“${currentMeta.actionText}”，即可在这里查看详细分析。`}
                   </div>
                 )}
               </div>
