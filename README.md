@@ -33,9 +33,9 @@ npm run deploy
 - 本地仓库已经添加 `origin` 指向该仓库
 - GitHub Pages 的发布来源设置为 `gh-pages` 分支
 
-当前前端构建已配置为以 `/smart-fraud-alert-page/` 作为生产环境基础路径。
+当前前端构建已配置为以 `/` 作为生产环境基础路径，适配自定义域名根路径部署。
 
-当前线上地址预期为：`https://spreng.top/smart-fraud-alert-page`
+当前线上地址预期为：`https://demo.spreng.top`
 
 如果后端不可用：
 - `statistics`、`victim`、`graph` 模块会自动回落到本地静态 JSON 数据

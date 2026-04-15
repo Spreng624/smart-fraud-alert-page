@@ -2,6 +2,7 @@ const rawApiBase = import.meta.env.VITE_API_BASE_URL?.trim() ?? '';
 
 export const API_BASE = rawApiBase.replace(/\/$/, '');
 export const HAS_REMOTE_API = API_BASE.length > 0;
+export const DASHBOARD_USES_LOCAL_DATA = true;
 
 const joinUrl = (base: string, path: string) => {
   const normalizedBase = base.endsWith('/') ? base : `${base}/`;
@@ -58,17 +59,14 @@ const fetchJson = async (url: string, options?: RequestInit) => {
 export const request = async (endpoint: string, options?: RequestInit) => {
   const mockPath = getMockPath(endpoint, options);
 
-  if (HAS_REMOTE_API) {
-    try {
-      return await fetchJson(joinUrl(API_BASE, endpoint), options);
-    } catch (error) {
-      if (!mockPath) throw error;
-    }
+  // Dashboard pages now read bundled JSON directly.
+  if (mockPath) {
+    return fetchJson(mockPath);
   }
 
-  if (!mockPath) {
+  if (!HAS_REMOTE_API) {
     throw new Error(`No remote API available for ${endpoint}`);
   }
 
-  return fetchJson(mockPath);
+  return fetchJson(joinUrl(API_BASE, endpoint), options);
 };

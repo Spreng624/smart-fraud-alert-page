@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ChartRenderer } from '@/components/ChartRenderer';
 import { FocusLayout } from '@/components/FocusLayout';
 import { withResearchAnnotation } from '@/config/analysisAnnotations';
-import { HAS_REMOTE_API, request } from '@/utils/request';
+import { DASHBOARD_USES_LOCAL_DATA, request } from '@/utils/request';
 
 const endpoints = ['gender', 'age', 'education', 'wordcloud'] as const;
 
@@ -59,9 +59,9 @@ export default function VictimPage() {
         受害者画像分析
       </h1>
 
-      {!HAS_REMOTE_API && (
+      {DASHBOARD_USES_LOCAL_DATA && (
         <div className="mb-6 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
-          当前未连接后端，已自动切换为本地静态数据展示。
+          当前模块已固定使用本地静态 JSON 数据展示。
         </div>
       )}
 
